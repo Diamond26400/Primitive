@@ -6,11 +6,11 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject[] Enemies;
     public GameObject powerUp;
-    private float ZSpawnRange = 10.0f;
-    private float enemySpawn = 12.0f;
-    private float ZpowerUpSpawnRange = 10.0f;
-    private float ySpawn = 0.75f;
-
+    private float ZSpawnRange = 8.0f;
+    private float enemySpawn = 8.0f;
+    private float ZpowerUpSpawnRange = 8.0f;
+    private float ySpawn = .75f;
+    private float ySpawnPowerUp = .70f;
     private float StartDelay = 1.0f;
     private float PowerUpspawnTime = 5.0f;
     private float EnemyspawnTime = 2.0f;
@@ -32,7 +32,7 @@ public class SpawnManager : MonoBehaviour
         int RandomIndex = Random.Range(0,Enemies.Length);
 
         Vector3 startPros = new Vector3(RandomX, ySpawn, enemySpawn);
-        Instantiate(Enemies[RandomIndex], startPros, Enemies[RandomIndex].transform.rotation);
+        Instantiate(Enemies[RandomIndex], startPros, Quaternion.identity);
 
     }
     private void spawnPowerUp()
@@ -40,9 +40,10 @@ public class SpawnManager : MonoBehaviour
         float RandomX = Random.Range(-ZSpawnRange, ZSpawnRange);
         float RandomZ = Random.Range(-ZpowerUpSpawnRange, ZpowerUpSpawnRange);
 
-        Vector3 startPos = new Vector3(RandomX ,- ZpowerUpSpawnRange, RandomZ);
+        Vector3 startPos = new Vector3(RandomX , ySpawnPowerUp, RandomZ);
 
-        Instantiate(powerUp,startPos, powerUp.transform.rotation);
+        Instantiate(powerUp, startPos, Quaternion.identity);
+
 
     }
 }

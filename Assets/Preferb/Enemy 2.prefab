@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2520450543947860386}
   - component: {fileID: 5546147075319651517}
   - component: {fileID: 2988014076911086765}
-  - component: {fileID: 3807846122230417357}
+  - component: {fileID: 8723115105704157130}
   m_Layer: 0
   m_Name: Enemy 2
   m_TagString: Enemy
@@ -115,7 +115,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957940694110284882}
   serializedVersion: 4
-  m_Mass: 10
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -134,7 +134,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 4
   m_CollisionDetection: 0
---- !u!114 &3807846122230417357
+--- !u!114 &8723115105704157130
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

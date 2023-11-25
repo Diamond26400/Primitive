@@ -20,7 +20,9 @@ public class NewBehaviourScript : MonoBehaviour
 
         if (transform.position.z < Zdestroy)
         {
-            Destroy(gameObject);
+           Destroy(gameObject);
         }
+        
     }
+  
 }
