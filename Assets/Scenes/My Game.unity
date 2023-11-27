@@ -1193,7 +1193,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4272901320056205165, guid: 5175e54c64822bd468b9428f14d18d3b, type: 3}
       propertyPath: m_Mass
-      value: 12
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4272901320056205165, guid: 5175e54c64822bd468b9428f14d18d3b, type: 3}
       propertyPath: m_Constraints
@@ -1209,7 +1209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7608501740441783499, guid: 5175e54c64822bd468b9428f14d18d3b, type: 3}
       propertyPath: Speed
-      value: 1000
+      value: 1500
       objectReference: {fileID: 0}
     - target: {fileID: 7608501740441783500, guid: 5175e54c64822bd468b9428f14d18d3b, type: 3}
       propertyPath: m_RootOrder
