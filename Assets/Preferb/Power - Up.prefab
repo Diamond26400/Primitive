@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 1607681234383627079}
   - component: {fileID: 8463652976676044638}
   - component: {fileID: 4908702564283327905}
+  - component: {fileID: -1098749447839002891}
   m_Layer: 0
   m_Name: Power - Up
-  m_TagString: Untagged
+  m_TagString: PowerUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,3 +109,24 @@ MonoBehaviour:
   endScale: {x: 0.5, y: 0.5, z: 0.5}
   scaleSpeed: 1
   scaleRate: 0.5
+--- !u!65 &-1098749447839002891
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199791025322334719}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3472724, y: 0.44943988, z: 2.2323897}
+  m_Center: {x: -0.00000023841858, y: -0.00041776904, z: 0.11784127}

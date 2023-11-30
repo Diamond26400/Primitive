@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     public float speed;
-   private Rigidbody objectRb;
+    private  Rigidbody objectRb;
     private float Zdestroy = 10.0f;
     // Start is called before the first frame update
     void Start()
